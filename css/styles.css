@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:100|Rozha+One');
+
+/* Variables */
+
+:root {
+    --font-size-large: 40px;
+    --font-size-medium: 20px;
+    --font-family-Rozha: 'Rozha One', serif;
+    --font-family-Roboto: 'Roboto', sans-serif;
+    --font-family-Raleway: 'Raleway:900', sans-serif;
+}
+
+/* Main */
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: rgba(235, 235, 235, 0.9);
+}
+
+header {
+    padding: 15px 5px 5px;
+    font-family: var(--font-family-Raleway);
+}
+
+
+/* ===================================== 
+   Media Queries
+======================================== */
+
+/* ===================================== 
+   Tablet
+======================================== */
+
+@media (min-width: 768px) {
+    .header-inner-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+}
+
+/* ===================================== 
+   Desktop
+   Hover styles on desktop 
+======================================== */
+
+@media (min-width: 1024px) {
+
+}
