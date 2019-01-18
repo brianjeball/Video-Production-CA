@@ -78,6 +78,14 @@ header {
     margin: 20px;
 } */
 
+.col-md-class {
+    position: relative;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+
+}
+
 /* ===================================== 
    Media Queries
 ======================================== */

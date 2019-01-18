@@ -4,8 +4,13 @@
         <title>Video Production Camp AMPED</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="css/normalize.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
+        <!-- <link href="css/normalize.css" rel="stylesheet"> -->
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- <link href="css/styles.css" rel="stylesheet"> -->
+
     </head>
     <body>
 
@@ -19,13 +24,13 @@
         </header>
 
         <!-- Welcome -->
-        <div id="welcome" class="section-main">
+        <div id="welcome" class="container">
             <h2>Welcome to Camp Amped 2019</h2>
             <p>I am excited to create with this team for 4 days!</p>
         </div>
 
         <!-- Overview -->
-        <div id="overview" class="section-main">
+        <div id="overview" class="container">
             <h2>Track Overview</h2>
             <p>The Videography Track was created to teach the must-know info on how to produce a video. </br>
                 We will learn about the entire process for producing and creating content. </br>
@@ -34,42 +39,42 @@
         </div>
 
         <!-- What is CLASS -->
-        <section class="section-main" id="class-sec">
-            <div id="class-main">
-                <h1>What is C.L.A.S.S</h1>
-                <div class="sec">
-                    <p class="composition"> <b>C</b> omposition</p>
-                    <p class="lighting"> <b>L</b> ighting</p>
-                    <p class="acting"> <b>A</b> cting</p>
-                    <p class="script"> <b>S</b> cript</p>
-                    <p class="sound"> <b>S</b> ound</p>
-                </div>
-            </div>
-
-            <div id="class-def">
-                <div class="def" id="comp-def">Composition</div>
-                <div>refers to the frame of the image and how the elements of the mise-en-scène appear in it</div>
-
-                <div class="def" id="light-def">Lighting
-                <div>refers to the frame of the image and how the elements of the mise-en-scène appear in it</div>
+        <section class="container" id="class-sec">
+                <h1 class="text-center">What is C.L.A.S.S</h1>
+            <div class="row">
+                <div id="class-main" class="col-md-6 text-center">
+                        <p class="composition"> <b>C</b> omposition</p>
+                        <p class="lighting"> <b>L</b> ighting</p>
+                        <p class="acting"> <b>A</b> cting</p>
+                        <p class="script"> <b>S</b> cript</p>
+                        <p class="sound"> <b>S</b> ound</p>      
                 </div>
 
-                <div class="def" id="act-def">Acting
-                <div>refers to the frame of the image and how the elements of the mise-en-scène appear in it</div>
-                </div>
+                <div id="class-def" class=" col-md-6">
+                    <div class="def" id="comp-def">Composition</div>
+                    <div>refers to the frame of the image and how the elements of the mise-en-scène appear in it</div>
 
-                <div class="def" id="script-def">Script
-                <div>refers to the frame of the image and how the elements of the mise-en-scène appear in it</div>
-                </div>
+                    <div class="def" id="light-def">Lighting
+                    <div>refers to the frame of the image and how the elements of the mise-en-scène appear in it</div>
+                    </div>
 
-                <div class="def" id="sound-def">Sound
-                <div>refers to the frame of the image and how the elements of the mise-en-scène appear in it</div>
+                    <div class="def" id="act-def">Acting
+                    <div>refers to the frame of the image and how the elements of the mise-en-scène appear in it</div>
+                    </div>
+
+                    <div class="def" id="script-def">Script
+                    <div>refers to the frame of the image and how the elements of the mise-en-scène appear in it</div>
+                    </div>
+
+                    <div class="def" id="sound-def">Sound
+                    <div>refers to the frame of the image and how the elements of the mise-en-scène appear in it</div>
+                    </div>
                 </div>
             </div>
 
         </section>
 
-        <section class="section-main">
+        <section class="container">
         <!-- Types of Videography -->
         <!-- When the type is clicked, img should appear and text color should change -->
             <div id="typeofvid" >
@@ -150,7 +155,7 @@
 
         <!-- Info on Cameras -->
         <section>
-        <div id="cameras" class="section-main">
+        <div id="cameras" class="container">
             <h2>Types of Cameras</h2>
             <div id="cam-types">
                 <div class="float">
@@ -176,7 +181,7 @@
 
         <!-- Crew & Jobs -->
         <section>
-            <div id="crew" class="section-main">
+            <div id="crew" class="container">
                 <h2>Crew / Members</h2>
                     <h4 class="crew1 pointer">Directors </h4>
                     <h4 class="crew2 pointer">Producers</h4>
@@ -244,7 +249,7 @@
         </section>
 
         <!-- Preproduction -->
-        <div id="pre-production" class="section-main">
+        <div id="pre-production" class="container">
             <h2>Pre-Production</h2>
 
             <!-- Storyboard -->
@@ -268,7 +273,7 @@
         </div>
 
         <!-- Production -->
-        <div id="production" class="section-main">
+        <div id="production" class="container">
             <h2>Production</h2>
 
             <!-- Shooting Video -->
@@ -332,7 +337,7 @@
         </div>
 
         <!-- Post-Production -->
-        <div id="post-production" class="section-main">
+        <div id="post-production" class="container">
                 <h2>Post-Production</h2>
 
             <!-- Editing Video -->
@@ -378,7 +383,8 @@
 
         </div>
 
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="js/scripts.js"></script>
