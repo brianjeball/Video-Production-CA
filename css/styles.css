@@ -32,6 +32,51 @@ header {
     font-family: var(--font-family-Raleway);
 }
 
+.pointer {
+    cursor: pointer;
+}
+
+/* ===================================== 
+    Fixed Heights
+======================================== */
+
+
+
+/* ===================================== 
+    Sections
+======================================== */
+
+/* .section-main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+} */
+
+#welcome, #overview{
+    height: 150px;
+    width: 100%;
+}
+
+#class-sec {
+    height: 100%;
+}
+
+/* #class-main {
+    float: left;
+} */
+
+/* #class-def {
+    float: right;
+    width: 50%;
+} */
+
+/* #cam-types {
+    width: 500px;
+}
+
+#cam-types div.float {
+    float: left;
+    margin: 20px;
+} */
 
 /* ===================================== 
    Media Queries
