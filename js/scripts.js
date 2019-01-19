@@ -9,7 +9,8 @@ $('#sound-def').hide();
 
 // Crew Definitions ================
     const crewPara = $('.crew-def p')
-    const crewImg = $('.crew-def img')
+    const crewImg = $('.crew-def-img img')
+    const crewMem = $('.crew-def-img h4');
 
     const dir_def = "Video directors are the creative force behind the making a movie, commercial or other video production. They work with a staff of producers, writers, editors, lighting technicians, sound engineers, and production assistants to produce videos for all sorts of different purposes."
     const prod_def = "As a television, film or video producer, you'll oversee all elements of a production from conception through to completion, and may also be involved in the marketing and distribution process.";
@@ -19,46 +20,62 @@ $('#sound-def').hide();
     const audio_def = "Setting up and testing sound equipment before events, broadcasts or recordings. Recording, editing and mixing audio tracks (instruments, vocals etc.)";
     const light_tech_def = "Lighting technicians work closely with lighting designers, sound technicians, the director and the stage manager to combine their skills and help create the live theatre experience. Interpreting a lighting designer's plan. Rigging, focusing and operating necessary lighting equipment.";
 
+    const dir_mem = "Ryan Coogler";
+    const prod_mem = "Kevin Feige";
+    const edit_mem = "Michael P. Shawver";
+    const act_mem = "Chadwick Boseman";
+    const cam_op_mem = "Rachel Morrison";
+    const audio_mem = "Ludwig Göransson";
+    const light_tech_mem = "";
+
+
 // Director
 $('.crew1').on('click', ()=>{
     crewPara.text(dir_def)
-    crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
+    crewImg.attr('src', './images/crew/ryan_coogler.jpg')
+    crewMem.text(dir_mem)
 });
 
 // Producer
 $('.crew2').on('click', ()=>{
     crewPara.text(prod_def)
-    crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
+    crewImg.attr('src', './images/crew/kevin_feige.jpg')
+    crewMem.text(prod_mem)
 });
 
 // Editor
 $('.crew3').on('click', ()=>{
     crewPara.text(edit_def)
-    crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
+    crewImg.attr('src', './images/crew/Michael_Shawver.jpg')
+    crewMem.text(edit_mem)
 });
 
 // Actor
 $('.crew4').on('click', ()=>{
     crewPara.text(act_def)
-    crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
+    crewImg.attr('src', './images/crew/chadwick_boseman.jpg')
+    crewMem.text(act_mem)
 });
 
 // Camera Operator
 $('.crew5').on('click', ()=>{
     crewPara.text(cam_op_def)
-    crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
+    crewImg.attr('src', './images/crew/rachel_morrison.jpg')
+    crewMem.text(cam_op_mem)
 });
 
 // Audio Operator
 $('.crew6').on('click', ()=>{
     crewPara.text(audio_def)
-    crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
+    crewImg.attr('src', './images/crew/Ludwig_goransson.png')
+    crewMem.text(audio_mem)
 });
 
 // Lighting Technician
 $('.crew7').on('click', ()=>{
     crewPara.text(light_tech_def)
-    crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
+    crewImg.attr('src', '')
+    crewMem.text(light_tech_mem)
 });
 
 // END OF CREW DEFS
