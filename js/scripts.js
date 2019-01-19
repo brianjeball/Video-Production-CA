@@ -7,9 +7,9 @@ $('#sound-def').hide();
 
 // $('.dir-crew').hide();
 
-// Crew Definitions
-    const crewPara = $('.crew-div p')
-    const crewImg = $('.crew-div img')
+// Crew Definitions ================
+    const crewPara = $('.crew-def p')
+    const crewImg = $('.crew-def img')
 
     const dir_def = "Video directors are the creative force behind the making a movie, commercial or other video production. They work with a staff of producers, writers, editors, lighting technicians, sound engineers, and production assistants to produce videos for all sorts of different purposes."
     const prod_def = "As a television, film or video producer, you'll oversee all elements of a production from conception through to completion, and may also be involved in the marketing and distribution process.";
@@ -31,3 +31,157 @@ $('.crew2').on('click', ()=>{
     crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
 });
 
+// Editor
+$('.crew3').on('click', ()=>{
+    crewPara.text(edit_def)
+    crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
+});
+
+// Actor
+$('.crew4').on('click', ()=>{
+    crewPara.text(act_def)
+    crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
+});
+
+// Camera Operator
+$('.crew5').on('click', ()=>{
+    crewPara.text(cam_op_def)
+    crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
+});
+
+// Audio Operator
+$('.crew6').on('click', ()=>{
+    crewPara.text(audio_def)
+    crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
+});
+
+// Lighting Technician
+$('.crew7').on('click', ()=>{
+    crewPara.text(light_tech_def)
+    crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
+});
+
+// END OF CREW DEFS
+
+// CLASS actions
+$('.def').hide();
+
+$('.composition').on('click', ()=>{
+    $('#comp-def').show();
+    $('#light-def').hide();
+    $('#act-def').hide();
+    $('#script-def').hide();
+    $('#sound-def').hide();
+})
+
+$('.lighting').on('click', ()=>{
+    $('#light-def').show();
+    $('#comp-def').hide();
+    $('#act-def').hide();
+    $('#script-def').hide();
+    $('#sound-def').hide();
+})
+
+$('.acting').on('click', ()=>{
+    $('#act-def').show();
+    $('#comp-def').hide();
+    $('#light-def').hide();
+    $('#script-def').hide();
+    $('#sound-def').hide();
+})
+
+$('.script').on('click', ()=>{
+    $('#script-def').show();
+    $('#comp-def').hide();
+    $('#light-def').hide();
+    $('#act-def').hide();
+    $('#sound-def').hide();
+})
+
+$('.sound').on('click', ()=>{
+    $('#sound-def').show();
+    $('#comp-def').hide();
+    $('#light-def').hide();
+    $('#script-def').hide();
+    $('#act-def').hide();
+})
+
+// -------------------------------
+
+// Types of Videos Definitions ================
+const vidPara = $('#typeofvid-def p')
+const vidVideo = $('#typeofvid-def iframe')
+
+const ad = "this kind of videography are mainly seen as TV ads where companies advertise their products creatively to lure potential clients";
+const ani = "";
+const corp = "Corporate videos normally include shots of the company, the company buildings, the staff, the environment and others which are usually accompanied with background music as well as a narration.";
+const doc = "This is a type of video where a subject is documented and is typically good for research or studies. Documentary videos are the documents of a subject. It is meant to document a subject.";
+const edu = "These are videos taken for educational purposes. Educational videos are excellent examples of teaching and learning concepts";
+const feat = "If a video film has more than 40 minutes in duration, it is a part of a feature film. Basically, a Feature film needs a minimum of 40 minutes duration or more than that.";
+const music = "Music videos are normally videotaped performances of a song done by recording artists. These videos normally have a theme, dancing performances as well as visualizations.";
+const short = "A short film is basically any film that is too short to be considered a feature film. There are no set boundaries on this, although the Academy of Motion Picture Arts and Sciences defines a short film as 'an original motion picture that has a running time of 40 minutes or less, including all credits'.";
+const vlog = "A video blog or video log, usually shortened to vlog, is a form of blog for which the medium is video, and is a form of web television. Vlog entries often combine embedded video with supporting text, images, and other metadata.";
+
+const ad_vid = "https://www.youtube.com/embed/Q2c2mPpvcpw";
+const ani_vid = "https://www.youtube.com/embed/3ez10ADR_gM";
+const corp_vid = "https://www.youtube.com/embed/wbnaHgSttVo";
+const doc_vid = "https://www.youtube.com/embed/Z3dm-Qb7daI";
+const edu_vid = "https://www.youtube.com/embed/wi-7hic3Uac";
+const feat_vid = "https://www.youtube.com/embed/yZ7wGEU4h4w";
+const music_vid = "https://www.youtube.com/embed/nntGTK2Fhb0";
+const short_vid = "https://www.youtube.com/embed/m26R-nNYCcI";
+const vlog_vid = "https://www.youtube.com/embed/aA9M2JNwsIM";
+
+// ADs
+$('.ad').on('click', ()=>{
+    vidPara.text(ad)
+    vidVideo.attr('src', ad_vid)
+});
+
+// Animation
+$('.ani').on('click', ()=>{
+    vidPara.text(ani)
+    vidVideo.attr('src', ani_vid)
+});
+
+// Corporate
+$('.corp').on('click', ()=>{
+    vidPara.text(corp)
+    vidVideo.attr('src', corp_vid)
+});
+
+// Documentary
+$('.doc').on('click', ()=>{
+    vidPara.text(doc)
+    vidVideo.attr('src', doc_vid)
+});
+
+// Educational
+$('.edu').on('click', ()=>{
+    vidPara.text(edu)
+    vidVideo.attr('src', edu_vid)
+});
+
+// Feature Film
+$('.feat').on('click', ()=>{
+    vidPara.text(feat)
+    vidVideo.attr('src', feat_vid)
+});
+
+// Music
+$('.music').on('click', ()=>{
+    vidPara.text(music)
+    vidVideo.attr('src', music_vid)
+});
+
+// Short Films
+$('.short').on('click', ()=>{
+    vidPara.text(short)
+    vidVideo.attr('src', short_vid)
+});
+
+// Vlogs
+$('.vlog').on('click', ()=>{
+    vidPara.text(vlog)
+    vidVideo.attr('src', vlog_vid)
+});
