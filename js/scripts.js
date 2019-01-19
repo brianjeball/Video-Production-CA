@@ -30,3 +30,4 @@ $('.crew2').on('click', ()=>{
     crewPara.text(prod_def)
     crewPara.attr('src', 'http://t1.gstatic.com/images?q=tbn:ANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI')
 });
+
