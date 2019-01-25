@@ -89,6 +89,7 @@ $('.composition').on('click', ()=>{
     $('#act-def').hide();
     $('#script-def').hide();
     $('#sound-def').hide();
+    $('')
 })
 
 $('.lighting').on('click', ()=>{
